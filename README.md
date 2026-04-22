@@ -46,7 +46,7 @@
 3. To run the app, a JAR file should be created first - *mvn clean package*
 4. EXPORT the following variable below or a .env file is also present in the folder - 
 export POSTGRESDB_USER=postgres
-export POSTGRESDB_ROOT_PASSWORD=postgres
+export POSTGRESDB_ROOT_PASSWORD=<>
 export POSTGRESDB_DATABASE=ecommerce
 5. Once everything is in place, run the following command - *docker-compose up*
 6. After the app is loaded, run the following on any browser - [http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swagger-ui/index.html)
